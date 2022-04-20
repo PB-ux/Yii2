@@ -30,18 +30,30 @@
 
 ### Задание 2
 
-Создал базу данных yii2 и таблицы авторы, книги и жанры в phpmyadmin.
+Создал базу данных yii2 и таблицы авторы, книги и жанры в phpmyadmin. (db.sql находится в папке sql)
 
-## DIRECTORY STRUCTURE
+Реализовал вывод содержимого всех таблиц.
 
-      assets/             contains assets definition
-      commands/           contains console commands (controllers)
-      config/             contains application configurations
-      controllers/        contains Web controller classes
-      mail/               contains view files for e-mails
-      models/             contains model classes
-      runtime/            contains files generated during runtime
-      tests/              contains various tests for the basic application
-      vendor/             contains dependent 3rd-party packages
-      views/              contains view files for the Web application
-      web/                contains the entry script and Web resources
+Выполнил следующие запросы:
+
+- Найти книги, написанные в 20 веке. Отсортировать по году написания.
+- Вывести авторов и количество написанных ими книг.
+- Найти книги, в названии которых содержится слово. Слово вводить в форму.
+
+Создал форму для добавление нового автора.
+
+Создал форму для удаления автора из таблицы.
+
+![alt text](screenshots/task2.jpeg "Task 2")
+
+### Задание 3
+
+Создал CRUD-приложение для работы со всеми таблицами базы данных(авторы,жанры,книги).
+
+Реализовал регистрацию и доступ к таблицам только авторизованным пользователям.
+
+![alt text](screenshots/task3_1.jpeg "Task 3")
+
+![alt text](screenshots/task3_2.jpeg "Task 3")
+
+![alt text](screenshots/task3_3.jpeg "Task 3")
